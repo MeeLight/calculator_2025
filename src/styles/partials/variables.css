@@ -1,0 +1,24 @@
+:root {
+  /* Fonts */
+  --calc-font: 'Roboto';
+
+  /* Font sizes */
+  --calc-text-sm: 0.8rem;
+  --calc-text-md: 1rem;
+  --calc-text-lg: 1.25rem;
+  --calc-text-xl: 1.5rem;
+
+  /* Colors */
+  --calc-bgColor: #ffffff;
+  --calc-textColor: #404040;
+
+  --calc-default: #404040;
+  --calc-primary: #404040;
+  --calc-secondary: #8b8b8b;
+  --calc-success: #4d6afe;
+  --calc-warning: #4d6afe;
+  --calc-error: #4d6afe;
+
+  /* Utilities */
+  --calc-outline: 2px solid rgba(0, 0, 0, 0.4);
+}

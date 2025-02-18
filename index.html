@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en" translate="no">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="theme-color"
+      media="(prefers-color-scheme: light)"
+      content="#4d6bfe"
+    />
+    <meta
+      name="theme-color"
+      media="(prefers-color-scheme: dark)"
+      content="#2563eb"
+    />
+    <link rel="icon" type="image/x-icon" href="/favicon.svg" />
+    <link
+      rel="apple-touch-icon"
+      href="https://cdn.deepseek.com/chat/icon.png"
+    />
+    <title>Calculator 2025</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="main__content">
+      <ul class="calc__results" id="results" role="list"></ul>
+
+      <form class="form" id="calculatorForm">
+        <ul class="calc__list cacl__list__one">
+          <li><button type="button" class="btn clear__calc__btn">AC</button></li>
+          <li><button type="button" class="btn remove__calc__btn">DEL</button></li>
+          <li><button type="button" class="btn cacl__btn">%</button></li>
+          <li><button type="button" class="btn cacl__btn">/</button></li>
+        </ul>
+
+        <ul class="calc__list cacl__list__two">
+          <li><button type="button" class="btn cacl__btn">7</button></li>
+          <li><button type="button" class="btn cacl__btn">8</button></li>
+          <li><button type="button" class="btn cacl__btn">9</button></li>
+          <li><button type="button" class="btn cacl__btn">x</button></li>
+        </ul>
+
+        <ul class="calc__list cacl__list__three">
+          <li><button type="button" class="btn cacl__btn">4</button></li>
+          <li><button type="button" class="btn cacl__btn">5</button></li>
+          <li><button type="button" class="btn cacl__btn">6</button></li>
+          <li><button type="button" class="btn cacl__btn">-</button></li>
+        </ul>
+
+        <ul class="calc__list cacl__list__four">
+          <li><button type="button" class="btn cacl__btn">1</button></li>
+          <li><button type="button" class="btn cacl__btn">2</button></li>
+          <li><button type="button" class="btn cacl__btn">3</button></li>
+          <li><button type="button" class="btn cacl__btn">+</button></li>
+        </ul>
+
+        <ul class="calc__list cacl__list__five">
+          <li><button type="button" class="btn bg-none"></button></li>
+          <li><button type="button" class="btn cacl__btn">0</button></li>
+          <li><button type="button" class="btn cacl__btn">.</button></li>
+          <li><button type="button" class="btn result__calc__btn">=</button></li>
+        </ul>
+      </form>
+    </main>
+
+    <script type="module" src="./src/main.ts"></script>
+  </body>
+</html>
